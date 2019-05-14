@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print('\n')
 name=input('\tEnter Your Name : ')
 sec=input('\tEnter Your Section : ')
@@ -34,3 +35,41 @@ elif(per>=60):
 elif(per>50):
         print('You Are Fail')
 
+=======
+print('\n')
+name=input('\tEnter Your Name : ')
+sec=input('\tEnter Your Section : ')
+rn=input('\tEnter Your Roll Number : ')
+s1=int(input('\tEnter Your Marks Of Calculus :'))
+s2=int(input('\tEnter Your Marks Of Arabic : '))
+s3=int(input('\tEnter Your Marks Of Web-Eng : '))
+s4=int(input('\tEnter Your Marks Of Software-Eng : '))
+s5=int(input('\tEnter Your Marks Of Operating System : '))
+t=(s1+s2+s3+s4+s5)
+per =float(((t/500)*100))
+print('\n')
+print('\tMARKSHEET')
+print('\n')
+print('\tNAME : ',name)
+print('\tSECTION : ',sec)
+print('\tROLL NUMBER : ',rn)
+print('\tCALCULUS : ',s1,'/100')
+print('\tARABIC : ',s2,'/100')
+print('\tWEB_ENG : ',s3,'/100')
+print('\tSOFTWARE_ENG : ',s4,'/100')
+print('\tOPERATING SYSTEM : ',s5,'/100')
+print('\n')
+print('\tTOTAL MARKS : ',t,'/500')
+print('\tPERCENTAGE : ',per,'%')
+if(per>=90&per>=99):
+    print('\t Your GPA is : 3.66')
+elif(per>=80):
+    print('\t Your GPA is : 3.00')
+elif(per>=70):
+    print('\t Your GPA is : 2.66')
+elif(per>=60):
+    print('\t Your GPA is : 2.00')
+elif(per>50):
+        print('You Are Fail')
+
+>>>>>>> acb81d1884c7f909f64ce0448f93530a513e3292

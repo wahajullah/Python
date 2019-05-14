@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 y= input("Enter Your Name: ")
 print("Your Name is: ",y)
 print("lenght or your name: ",len(y))
+=======
+y= input("Enter Your Name: ")
+print("Your Name is: ",y)
+print("lenght or your name: ",len(y))
+>>>>>>> acb81d1884c7f909f64ce0448f93530a513e3292
